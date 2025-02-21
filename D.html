@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="D.css">
+    <script src="D.js"></script>
+</head>
+
+
+<body>
+
+    <section class="header">
+        <nav style="position: sticky;top:0">
+            <a href=""> <img src="Images/clg logo.png"></a>
+            <div class="links">
+                   <button id="hom">Home</button>
+                   <button id="abo">About</button>
+                   <script>
+                   document.getElementById('abo').addEventListener('click', function() {
+                    window.scrollBy({
+                      top: 2200,
+                      left: 0,
+                      behavior: 'auto'
+                    });
+                  });
+                </script>
+                   <button id="cor">Courses</button>
+                   <script>
+                    document.getElementById('cor').addEventListener('click', function() {
+                     window.scrollBy({
+                       top: 690,
+                       left: 0,
+                       behavior: 'auto'
+                     });
+                   });
+                 </script>
+                   <button id="cam">Campus</button>
+                   <script>
+                    document.getElementById('cam').addEventListener('click', function() {
+                     window.scrollBy({
+                       top: 1290,
+                       left: 0,
+                       behavior: 'auto'
+                     });
+                   });
+                 </script>
+                   <button id="rev">Reviws</button>
+                   <script>
+                    document.getElementById('rev').addEventListener('click', function() {
+                     window.scrollBy({
+                       top: 1950,
+                       left: 0,
+                       behavior: 'auto'
+                     });
+                   });
+                 </script>
+            </div>
+        </nav>
+
+        <div class="text-box">
+            <h1>DEVZ UNIVERSITY</h1>
+            <p> Devz University is a forward-thinking institution that caters to providing high-quality, innovative education for students from all walks of life. 
+                Devz University offers an array of undergraduate and graduate programs, with an emphasis on the skills and knowledge needed to thrive in today's rapidly evolving industries. 
+                With state-of-the-art facilities, experienced faculty, and a strong emphasis on practical learning, Devz University prepares its graduates for successful careers in fields such as technology, business, healthcare, and more. 
+                At Devz, we foster a community of critical thinkers, problem-solvers, and future leaders committed to making an impact on the world.
+            </p>
+            <a href="https://www.youtube.com/@devz_here" class="hero-btn">CLICK TO KNOW MORE</a>
+        </div>
+    </section>
+
+    <section class="header2">
+    <div class="scrolling-text">
+        <span>UPCOMING EVENTS</span>
+        <marquee behavior="" direction="left">Annual Tech Symposium | Hackathon 2025 | Innovative Engineering Design Exhibition | Engineering Alumni Networking Night | Annual Engineering Quiz Competition | Summer Internship Information Session</marquee>
+    </div>
+    </section>
+
+    <section class="header3" >
+        <h1>Department</h1>
+        <p>An engineering college we have several top departments, each specializing in a key area of technology and innovation. 
+            Among the most prominent are the Department of Computer Science and Engineering, which focuses on software development, 
+            artificial intelligence, and data science; the Department of Electrical and Electronics Engineering, which covers circuits,
+             power systems, and electronics; the Department of Mechanical Engineering, known for its work in thermodynamics, robotics.
+        <p>
+            <div class="slider-container">
+                <button class="prev" onclick="moveSlide(-1)">&#10096;</button>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="Images/cse.jpeg" alt="Image 1" style="width: 280px; height: 200px;" >
+                            <img src="Images/eee.jpeg" alt="Image 2" style="width: 290px; height: 200px;">
+                            <img src="Images/mech.jpeg" alt="Image 3" style="width: 265px; height: 200px;">
+                        </div>
+                        <div class="slide">
+                            <img src="Images/aids.jpeg" alt="Image 4" style="width: 280px; height: 200px;">
+                            <img src="Images/civil.jpeg" alt="Image 5" style="width: 280px; height: 200px;">
+                            <img src="Images/agri.jpeg" alt="Image 6" style="width: 280px; height: 200px;">
+                        </div>
+                    </div>
+                </div>
+                <button class="next" onclick="moveSlide(1)">&#10097;</button>
+            </div>
+    </section>
+    
+
+    <section class="campus" >
+        <h1>Our Global Campus</h1>
+        <p>we have three campus in major countries</p>
+
+        <div class="row">
+
+
+            <div class="col">
+                <img src="Images/LONDON.jpg" >
+                <div class="info">
+                    <h3>LONDON</h3>
+                </div>
+            </div>  
+            <div class="col">
+                <img src="Images/PARIS (2).jpg" >
+                <div class="info">
+                    <h3>PARIS</h3>
+                </div>
+            </div>  
+            <div class="col">
+                <img src="Images/DUBAI (2).jpg" >
+                <div class="info">
+                    <h3>DUBAI</h3>
+                </div>
+            </div>  
+
+            
+        </div>
+
+    </section>
+
+    <section class="opinion">
+    <div class="rev-section">
+        <h2 class="r1">Student Reviews</h2>
+        <div class="reviews">
+            <div class="review">
+                <div class="head-review">
+                    <img src="Images/1.jpeg">
+                </div>
+                <div class="body-review">
+                    <div class="name-review">Maddy</div>
+                    <div class="place-review">London</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <div class="review-content">"I’m thoroughly impressed with the tech facilities at Devz University. The computer labs are equipped with the latest software, and the focus on coding and AI has been a huge benefit to my learning. The campus environment is collaborative, and I’ve met some incredible people who are just as passionate about technology as I am."
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="head-review">
+                    <img src="Images/2.png">
+                </div>
+                <div class="body-review">
+                    <div class="name-review">Vasu</div>
+                    <div class="place-review">Paris</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="review-content">"Devz University has provided me with a solid foundation in mechanical engineering. The professors are highly knowledgeable and always willing to help. The hands-on labs and workshops have been crucial in applying what we learn in theory to real-world scenarios. I’m excited to be part of this innovative learning environment!"
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="head-review">
+                    <img src="Images/3.png">
+                </div>
+                <div class="body-review">
+                    <div class="name-review">Varuna</div>
+                    <div class="place-review">Dubai</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <div class="review-content">"I chose Devz University for its innovative approach to teaching and its focus on emerging technologies. I’ve been able to specialize in software development. The campus is full of resources to help us thrive as students. The collaborative projects and industry partnerships have given me great exposure and opportunities to grow!"
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    </section>
+
+   <section class="about" >
+    <div class="me">
+        <div class="image">
+            <img src="Images/passport pic devz.jpeg">
+        </div>
+        <div class="content">
+            <h1>ABOUT ME</h1>
+            <h4><span>Devendran</span> - Front End Developer</h4>
+            <p>I’m a Front-End Developer with a passion for crafting responsive, pixel-perfect websites using HTML and CSS.
+                I specialize in creating clean, semantic code that delivers smooth, user-friendly experiences.
+                With a strong understanding of design principles, I ensure every website looks great on any device.
+                I’m always striving to improve my skills and stay up to date with the latest web technologies.
+                
+            </p>
+            <a href="https://www.instagram.com/devz__here?igsh=azRqZTdud2R1MWgz">
+            <button type="button" class="bu">Let's Talk</button>
+            </a>
+            
+        </div>
+        <div class="contactme">
+            <h4>Contact</h4>
+           <p class="m">Mobile : +91 98942 12503</p><br>
+           <p class="n">E-mail : <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJqXPMwclGXFDqLTVtLGqxxRmWJfxSFwjrLMTxJvQrMTqtJLbTGHgChJMzwWNCfTRGPKxBB">janadevendran9993@gmail.com </a> </p>
+            <a href="https://www.instagram.com/devz__here?igsh=azRqZTdud2R1MWgz"><div class="sli"><i class="fab fa-instagram"></i></div></a>
+            <a href="https://www.youtube.com/@devz_here"><div class="sly"><i class="fab fa-youtube"></i></div></a>
+            <a href="wa.me/qr/DPYDOR4DNSF3J1"><div class="slf"><i class="fab fa-whatsapp"></i></div></a>
+        </div>
+        
+    </div>
+    
+   </section>
+
+
+   
+</body>
+</html>
